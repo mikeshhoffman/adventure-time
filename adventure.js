@@ -1,4 +1,4 @@
-// User will seek a treasure using text interface.  prompt box
+// User will seek a treasure using text interface.
 // User can move in different directions (“north”, “east”) by entering them in prompt. 
 // This will move them around game play area until they find the hidden treasure.
 
