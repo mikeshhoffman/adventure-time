@@ -80,10 +80,6 @@ while(!treasureFound){
   } else if (direction == "w") {
     direction = "West"
   }
-    
-  // see what new user location should be
-  // check if new user location is valid
-  // check if new user location is treasure
   
   // temp vars, only used for checking validity of new user location after move
   var newX
@@ -174,6 +170,7 @@ while(!treasureFound){
     }
     
   } else {
+    // requested direction isn't valid
     console.log("Please enter a real direction")
   }  
   
