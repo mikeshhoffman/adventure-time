@@ -71,13 +71,13 @@ var treasureFound = false
 while(!treasureFound){
   var direction = prompt("Which direction do you want to move? (n, s, e, or w)")
   
-  if (direction == "n") {
+  if (direction == "n" || direction == "north") {
     direction = "North"
-  } else if (direction == "s") {
+  } else if (direction == "s" || direction == "south") {
     direction = "South"
-  } else if (direction == "e") {
+  } else if (direction == "e" || direction == "east") {
     direction = "East"
-  } else if (direction == "w") {
+  } else if (direction == "w" || direction == "west") {
     direction = "West"
   }
   
